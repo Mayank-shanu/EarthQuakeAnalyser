@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:minHeight="88dp">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:minHeight="88dp"
+        android:layout_weight="1"
+        android:id="@+id/reference_layout_textView_magnitude"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:text="7.2"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:minHeight="88dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="4dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:id="@+id/reference_layout_textView_header"
+            tools:text="header"
+            android:paddingBottom="2dp"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:id="@+id/reference_layout_textView_footer"
+            tools:text="footer"
+            android:paddingTop="2dp"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:textColor="@android:color/darker_gray"
+        android:id="@+id/reference_layout_textView_setDate"
+        android:minHeight="88dp"
+        android:gravity="center"
+        />
+</LinearLayout>
+
+<!--
+android:id="@+id/reference_layout_textView_magnitude"
+android:id="@+id/reference_layout_textView_header"
+android:id="@+id/reference_layout_textView_footer"
+-->
